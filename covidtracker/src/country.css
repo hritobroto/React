@@ -1,0 +1,44 @@
+   
+.country{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5f5f5f;  
+    
+
+    border-radius: 5px;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.country:hover{
+    transform: scale(1.03);
+}
+.country > img{
+    width: 30%;
+    height: auto;
+}
+.country > h2{
+    margin: 5px 0;
+    font-weight: bolder;
+    color: rgb(221, 191, 191);
+}
+.describe{
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+    white-space: pre;
+    justify-items: left;
+    width: 80%;
+}
+
+.data > h4 {
+    display: inline-block;
+    color: rgb(74, 172, 202);
+    font-weight: bold;
+}
+
+.data > h3{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}

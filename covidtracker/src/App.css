@@ -1,0 +1,30 @@
+.navigation{
+  white-space: nowrap;
+}
+
+.navigation > a > img:hover{
+  transform: scale(1.03);
+}
+.navigation > a > img{
+  width: 2%;
+  height: 2%;
+  display: inline-block;
+}
+
+.navigation > h4 {
+  display: inline-block;
+  color: rgb(74, 172, 202);
+}
+.App {
+  width:80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  
+}
+
+
+
+.siteintro{
+  background-color: #292929;
+}
