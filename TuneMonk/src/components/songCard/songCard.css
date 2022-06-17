@@ -1,0 +1,17 @@
+.songCard-body {
+    width: 100%;
+    margin-top: 10px;
+    height: 60%;
+    /*background-color: #27354d;*/
+    
+    background-color: #b02be8;
+    opacity: 0.5;
+    background-image: linear-gradient(to right, #a5a1a1, #a5a1a1 5px, #d29fe8 5px, #d29fe8 );
+    background-size: 80px 100%;
+
+    border-radius: 30px;
+    border-bottom-right-radius: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
